@@ -66,5 +66,19 @@
         "registry:write": "node tools/registry.js --input registry.json",
         "registry:read": "node tools/registry.js --output registry.json",
         "registry:clear": "node tools/registry.js --clear"
+    },
+    "dependencies": {
+        "@types/chai": "^5.0.1",
+        "@types/mocha": "^10.0.10",
+        "chai": "^4.5.0",
+        "mocha": "^11.0.1",
+        "roku-test-automation": "^2.0.10"
+    },
+    "mocha": {
+        "timeout": 120000,
+        "require": [
+            "ts-node/register",
+            "./automated-test/include.ts"
+        ]
     }
 }

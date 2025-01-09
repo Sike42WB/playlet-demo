@@ -76,6 +76,18 @@
             "args": "--log-level info --project bsconfig.tests.json --create-package --sourceMap=true --debug --test-mode --lintConfig ../config/bslint.jsonc",
             "cwd": "${workspaceFolder}/playlet-lib",
             "console": "integratedTerminal"
+        },
+        {
+            "name": "Run Automated Tests Launch Target",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build-dev",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "args": [
+                "./automated-test/**/*.ts",
+            ],
+            "console": "integratedTerminal"
         }
     ],
     "compounds": [

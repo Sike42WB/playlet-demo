@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Sike42WB/roku-test-automation/refs/heads/master/client/rta-config.schema.json",
+    "RokuDevice": {
+        "devices": [
+            {
+                "host": "192.168.0.242",
+                "password": "Sike1234",
+                "properties": {
+                    "name": "RTA Roku Express 4K "
+                }
+            }
+        ],
+        "deviceIndex": 0
+    }
+}
