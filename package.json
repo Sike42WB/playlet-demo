@@ -6,7 +6,7 @@
         "@rokucommunity/bslint": "^0.8.27",
         "@types/crypto-js": "^4.2.2",
         "@types/fs-extra": "^11.0.4",
-        "@types/node": "^22.10.2",
+        "@types/node": "^22.10.5",
         "@types/xml2js": "^0.4.14",
         "argparse": "^2.0.1",
         "brighterscript": "0.68.2",
@@ -15,7 +15,7 @@
         "crypto-js": "^4.2.0",
         "dotenv": "^16.4.7",
         "fs-extra": "^11.2.0",
-        "glob": "^11.0.0",
+        "glob": "^11.0.1",
         "imap": "^0.8.19",
         "ip": "^2.0.1",
         "json5": "^2.2.3",
@@ -27,9 +27,9 @@
         "semver": "^7.6.3",
         "shelljs": "^0.8.5",
         "ts-node": "^10.9.2",
-        "typescript": "5.7.2",
+        "typescript": "5.7.3",
         "xml2js": "^0.6.2",
-        "yaml": "^2.6.1"
+        "yaml": "^2.7.0"
     },
     "engines": {
         "node": "20"
@@ -70,7 +70,7 @@
     "dependencies": {
         "@types/chai": "^5.0.1",
         "@types/mocha": "^10.0.10",
-        "chai": "^4.5.0",
+        "chai": "^5.1.2",
         "mocha": "^11.0.1",
         "roku-test-automation": "^2.0.10"
     },
