@@ -3,7 +3,7 @@
     "RokuDevice": {
         "devices": [
             {
-                "host": "192.168.0.242",
+                "host": "192.168.0.241",
                 "password": "Sike1234",
                 "properties": {
                     "name": "RTA Roku Express 4K "
